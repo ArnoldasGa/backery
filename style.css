@@ -1,0 +1,46 @@
+
+body {
+    height: 100vh;
+    background-image: url(Paskaitos-ft/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url(Paskaitos-ft/navi_bg.png);
+    height: 12vh;
+    padding: 0% 7%;
+    width: 100%;
+    display: flex;
+    color: white;
+    gap: 4%;
+    box-sizing: border-box;
+}
+
+.header {
+    /* display: inline-flex; */
+    font-size: 30pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+    margin-right: 5%;
+}
+
+.navigation {
+    align-self: center;
+    font-size: 14pt;
+}
+
+.socials {
+    display: inline-flex;
+    align-self: center;
+    /* margin-left: auto; */
+    column-gap: 4%;
+}
+
+.socials :nth-child(3){
+    margin-left: 150%;
+}
+
+.socials :nth-child(2){
+    margin-left: 150%;
+}
