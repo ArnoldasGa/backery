@@ -1,14 +1,16 @@
 
-body {
+.page1 {
+    margin: 33px;
     height: 100vh;
     background-image: url(Paskaitos-ft/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 header {
-    background-image: url(Paskaitos-ft/navi_bg.png);
-    height: 12vh;
+    background-image: url(Paskaitos-ft/navigation/navi_bg.png);
+    height: 8vh;
     padding: 0% 7%;
     width: 100%;
     display: flex;
@@ -20,7 +22,7 @@ header {
 .header {
     /* display: inline-flex; */
     font-size: 30pt;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Tahoma, sans-serif;
     align-self: center;
     margin-right: 5%;
 }
@@ -43,4 +45,89 @@ header {
 
 .socials :nth-child(2){
     margin-left: 150%;
+}
+
+.box1 {
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    font-size: 92pt;
+    padding-top: 11%;
+}
+
+.img-center {
+    margin: auto;
+    display: block;
+}
+
+#margin3{
+    margin-top: 3%;
+}
+
+#margin1{
+    margin-top: 0.5%;
+}
+
+#absoliut{
+    background-image: url(Paskaitos-ft/bg_shadow.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box2 {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-size: 24pt;
+    margin-top: 5%;
+}
+
+.button {
+    background-image: url(Paskaitos-ft/btn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-size: 14pt;
+    width: 100%;
+    padding: 14px;
+}
+
+.page2 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 85vh;
+    background-image: url(Paskaitos-ft/art-of-cakes/img\ texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bullets :nth-child(1){
+    top: -18px;
+    width: 100%;
+    position: absolute;
+}
+
+.bullets :nth-child(2){
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 3%;
+}
+
+.bullets :nth-child(3){
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    margin-top: -30px;
+    width: 7%;
 }
