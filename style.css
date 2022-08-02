@@ -1,6 +1,5 @@
 
 .page1 {
-    margin: 33px;
     height: 100vh;
     background-image: url(Paskaitos-ft/bg.png);
     background-repeat: no-repeat;
@@ -20,11 +19,9 @@ header {
 }
 
 .header {
-    /* display: inline-flex; */
     font-size: 30pt;
     font-family:Verdana, Tahoma, sans-serif;
     align-self: center;
-    margin-right: 5%;
 }
 
 .navigation {
@@ -35,7 +32,6 @@ header {
 .socials {
     display: inline-flex;
     align-self: center;
-    /* margin-left: auto; */
     column-gap: 4%;
 }
 
@@ -95,7 +91,6 @@ header {
     margin-top: 3%;
     color: white;
     font-size: 14pt;
-    width: 100%;
     padding: 14px;
 }
 
@@ -103,31 +98,151 @@ header {
     display: flex;
     position: relative;
     background-color: white;
-    height: 85vh;
+    height: 90vh;
     background-image: url(Paskaitos-ft/art-of-cakes/img\ texture.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bullets :nth-child(1){
-    top: -18px;
+.bullets {
+    position: absolute;
     width: 100%;
+}
+
+.bullets :nth-child(1){
+    content: url(Paskaitos-ft/border_bullets.png);
+    width: 100%;
+    left: 0;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
     position: absolute;
 }
 
-.bullets :nth-child(2){
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    width: 3%;
+
+.page2-mainbox {
+    width: 100%;
+    display: inline-flex;
+    padding: 0% 7%;
 }
 
-.bullets :nth-child(3){
-    position: absolute;
-    left: 0%;
-    right: 0%;
+.page2-left {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.page2-left :nth-child(1) {
+    font-size: 45pt;
+    color: grey;
+    text-align: center;
     margin: auto;
-    margin-top: -30px;
-    width: 7%;
+}
+
+.page2-left :nth-child(2){
+    font-size: 22pt;
+    color: burlywood;
+    text-align: center;
+    margin: auto;
+}
+
+.page2-left :nth-child(3){
+    margin-top: 10%;
+    font-size: 19pt;
+    color: grey;
+    text-align: center;
+}
+
+.page2-left :nth-child(4){
+    margin-top: 6%;
+    font-size: 24pt;
+    color: rgb(45, 45, 45);
+    text-align: center;
+}
+
+.avatar {
+    width: 50%;
+    margin: 5% 25%;
+    display: flex;
+}
+
+.avatar div:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+    column-gap: 2%;
+    font-size: 24pt;
+    margin: 10% auto;
+}
+
+.avatar div:nth-child(1){
+    align-content: space-around;
+}
+
+.page2-left-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.page2-left-bottom :nth-child(1) {
+    position: absolute;
+}
+
+.page2-left-bottom :nth-child(2) {
+    font-size: 24pt;
+    width: 55%;
+}
+
+.page2-left-bottom :nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0 ;
+}
+
+.page2-right {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.page2-right :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#over-ft {
+    background-image: url(Paskaitos-ft/right-img/Vektor-Smartobjekt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    font-size: 30pt;
+    color: burlywood;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.page3 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 90vh;
+    background-image: url(Paskaitos-ft/perfect-pancakes/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
